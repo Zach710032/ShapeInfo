@@ -29,16 +29,6 @@ def triangle(b,h):
     area = b * h
     area = area / 2
     print(  'Area: {}'.format(area))  
-
-
-
-
-
-
-
-
-
-
     
     print
 
@@ -62,7 +52,7 @@ def main(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SHAPE INFO V 0.2')
     parser.add_argument('shape', choices=['circle','square','triangle'],
-                        help='The type of shape to print info for.(triangle is equalateral only)')
+                        help='The type of shape to print info for.(triangle is equilateral only)')
 
     parser.add_argument('--r', dest='radius', required=False)
     parser.add_argument('--d', dest='diameter', required=False)
