@@ -25,29 +25,23 @@ def circle(r):
     
 def triangle(b,h):
 
-    print('Base and Height: {}, {}'.format(b,h))
-    area = b * h
-    area = area / 2
-    print(  'Area: {}'.format(area))  
-    
-    print
+    print('Triangle Base, Height: {}, {}'.format(b, h))
 
-    
+    area = b * h / 2
+    print(  'Area: {}'.format(area))  
 
 def main(args):
     if args.shape == 'square':
-        if (args.side is not None):
+        if args.side is not None:
             square(float(args.side))
     if args.shape == 'circle':
-        if (args.radius is not None):
+        if args.radius is not None:
             circle(float(args.radius))
-        elif (args.diameter is not None):
+        elif args.diameter is not None:
             circle(float(args.diameter) / 2 )
     if args.shape == 'triangle':
-        if (args.base is not None and args.height is not None):
+        if args.base is not None and args.height is not None:
             triangle(float(args.base), float(args.height))
-
-            
     
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='SHAPE INFO V 0.2')
