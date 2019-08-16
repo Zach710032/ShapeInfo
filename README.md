@@ -1,5 +1,5 @@
 # ShapeInfo
-ShapeInfo is a open-source python program that uses cmd intigration to find values based on input values.
+ShapeInfo is a open-source python program that uses cmd integration to find values based on input values.
 
 # Change Log
 >7/30/19-Added right triangle support.
