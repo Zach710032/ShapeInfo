@@ -141,7 +141,7 @@ window.setCentralWidget(mainWidget)
 
 layout = QVBoxLayout()
 
-titleLabel = QLabel('Welcome to ShapeInfo Version 1.0', mainWidget)
+titleLabel = QLabel('Welcome to ShapeInfo Version 0.3.1', mainWidget)
 layout.addWidget(titleLabel)
 
 shapeCombo = QComboBox(mainWidget)
