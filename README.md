@@ -5,3 +5,5 @@ ShapeInfo is a open-source python program that uses cmd integration to find valu
 >7/30/19-Added right triangle support.
 
 >8/10/19-Version 0.3 release.
+
+>12/1/2019- Version 0.3.1 release.
